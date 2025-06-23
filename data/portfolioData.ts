@@ -88,7 +88,8 @@ export const skillCategories = [
     skills: [
       { name: "Figma", level: 60, experience: "5개월", projects: 2 },
       { name: "VS Code", level: 90, experience: "4년", projects: 5 },
-      { name: "Notion", level: 60, experience: "1년", projects: 2 }
+      { name: "Notion", level: 60, experience: "1년", projects: 2 },
+      { name: "Android Studio", level: 50, experience: "5개월", projects: 1 }
     ]
   }
 ]; 
