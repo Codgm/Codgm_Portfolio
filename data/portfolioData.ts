@@ -4,7 +4,7 @@ export const projects = [
     desc: "현재 보고 계신 이 포트폴리오 웹사이트입니다. 창의적인 애니메이션과 인터랙션으로 독특한 사용자 경험을 제공합니다.",
     stack: "HTML5, CSS3, JavaScript, Canvas API, Next.js, TypeScript",
     link: "#",
-    github: "https://github.com/yourusername/portfolio"
+    github: "https://github.com/Codgm/Codgm_Portfolio.git"
   },
 ];
 
