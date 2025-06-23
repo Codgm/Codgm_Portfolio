@@ -9,6 +9,16 @@ import LoadingScreen from "../components/LoadingScreen";
 export const metadata: Metadata = {
   title: "Codgm - Frontend Developer",
   description: "창의적인 웹 경험을 만드는 프론트엔드 개발자 서규민의 포트폴리오",
+  keywords: [
+    "서규민",
+    "서규민 포트폴리오",
+    "Seogyumin",
+    "Seogyumin Portfolio",
+    "프론트엔드 개발자",
+    "Frontend Developer",
+    "웹 개발자",
+    "Web Developer"
+  ],
   openGraph: {
     title: "Codgm - Frontend Developer",
     description: "창의적인 웹 경험을 만드는 프론트엔드 개발자 서규민의 포트폴리오",
