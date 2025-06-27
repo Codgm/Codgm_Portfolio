@@ -6,9 +6,10 @@ interface ProjectCardProps {
   stack: string;
   link: string;
   github?: string;
+  blog?: string;
 }
 
-export default function ProjectCard({ title, desc, stack, link, github }: ProjectCardProps) {
+export default function ProjectCard({ title, desc, stack, link, github, blog }: ProjectCardProps) {
   return (
     <div className={styles.card}>
       <div className={styles.cardContent}>
@@ -34,6 +35,16 @@ export default function ProjectCard({ title, desc, stack, link, github }: Projec
               rel="noopener noreferrer"
             >
               📂 GitHub
+            </a>
+          )}
+          {blog && (
+            <a 
+              href={blog} 
+              className={styles.link}
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              📝 Details
             </a>
           )}
         </div>

@@ -4,7 +4,16 @@ export const projects = [
     desc: "현재 보고 계신 이 포트폴리오 웹사이트입니다. 창의적인 애니메이션과 인터랙션으로 독특한 사용자 경험을 제공합니다.",
     stack: "HTML5, CSS3, JavaScript, Canvas API, Next.js, TypeScript",
     link: "#",
-    github: "https://github.com/Codgm/Codgm_Portfolio.git"
+    github: "https://github.com/Codgm/Codgm_Portfolio.git",
+    blog: "https://your-blog-link.com"
+  },
+  {
+    title: "Codgm Blog",
+    desc: "블로그 제작",
+    stack: "HTML5, CSS3, SCSS, JavaScript, Jekyll, Minimal Mistakes",
+    link: "https://codgm.github.io/",
+    github: "https://github.com/Codgm/codgm.github.io",
+    blog: "https://codgm.github.io/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%A0%9C%EC%9E%91/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/blog-making-review/"
   },
 ];
 

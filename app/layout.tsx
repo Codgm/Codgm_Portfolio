@@ -8,8 +8,8 @@ import LoadingScreen from "../components/LoadingScreen";
 import { useEffect, useState } from "react";
 
 export const metadata: Metadata = {
-  title: "Codgm - Frontend Developer",
-  description: "창의적인 웹 경험을 만드는 프론트엔드 개발자 서규민의 포트폴리오",
+  title: "Codgm - Developer",
+  description: "창의적인 웹 경험을 만드는 개발자 서규민의 포트폴리오",
   keywords: [
     "서규민",
     "서규민 포트폴리오",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     "Web Developer"
   ],
   openGraph: {
-    title: "Codgm - Frontend Developer",
-    description: "창의적인 웹 경험을 만드는 프론트엔드 개발자 서규민의 포트폴리오",
+    title: "Codgm - Developer",
+    description: "창의적인 웹 경험을 만드는 개발자 서규민의 포트폴리오",
     url: "https://codgm.vercel.app",
     siteName: "Codgm Portfolio",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Codgm - Frontend Developer",
-    description: "창의적인 웹 경험을 만드는 프론트엔드 개발자 서규민의 포트폴리오",
+    description: "창의적인 웹 경험을 만드는 개발자 서규민의 포트폴리오",
     images: ["/images/glitch-bg.svg"],
   },
   metadataBase: new URL("https://codgm.vercel.app"),
