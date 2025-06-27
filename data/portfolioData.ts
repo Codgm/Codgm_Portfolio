@@ -5,7 +5,7 @@ export const projects = [
     stack: "HTML5, CSS3, JavaScript, Canvas API, Next.js, TypeScript",
     link: "#",
     github: "https://github.com/Codgm/Codgm_Portfolio.git",
-    blog: "https://your-blog-link.com"
+    blog: "https://codgm.github.io/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%A0%9C%EC%9E%91/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/portfolio-site-making-review/"
   },
   {
     title: "Codgm Blog",
