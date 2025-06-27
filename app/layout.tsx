@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CustomCursor from "../components/CustomCursor";
-import BackgroundEffects from "../components/BackgroundEffects";
-import LoadingScreen from "../components/LoadingScreen";
-import { useEffect, useState } from "react";
 import ClientLayout from "../components/ClientLayout";
 
 export const metadata: Metadata = {
