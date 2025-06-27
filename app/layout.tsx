@@ -1,4 +1,3 @@
-"use client"
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import Header from "../components/Header";
@@ -7,6 +6,7 @@ import CustomCursor from "../components/CustomCursor";
 import BackgroundEffects from "../components/BackgroundEffects";
 import LoadingScreen from "../components/LoadingScreen";
 import { useEffect, useState } from "react";
+import ClientLayout from "../components/ClientLayout";
 
 export const metadata: Metadata = {
   title: "Codgm - Developer",
@@ -60,27 +60,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  // 모바일 디바이스 감지
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const checkMobile = () => {
-        const ua = navigator.userAgent;
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
-      };
-      setIsMobile(checkMobile());
-    }
-  }, []);
-
   return (
     <html lang="ko,en">
       <body>
-        <LoadingScreen />
-        {!isMobile && <CustomCursor />}
-        <BackgroundEffects />
-        <Header />
-        {children}
-        <Footer />
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
